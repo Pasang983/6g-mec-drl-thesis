@@ -53,45 +53,6 @@ python double_dqn_multiseed.py
 - `dueling_ddqn_multiseed_ablation.py` — Dueling DDQN training script with configurable reward weights (used by `run_ablation.sh`)
 - `analyse_ablation.py` — Aggregates and plots the ablation results across the three configurations
 
-## Repository Structure
-
-6g-mec-drl-thesis/
-├── README.md
-├── CHANGELOG.md
-├── LICENSE
-├── requirements.txt
-├── env_config.py
-│
-├── simulator/
-│   └── mec_simulator_v8_robust.cc
-│
-├── agents/
-│   ├── double_dqn_multiseed.py
-│   ├── dueling_ddqn_multiseed.py
-│   ├── ppo_agent_multiseed.py
-│   ├── random_baseline_multiseed.py
-│   └── greedy_baseline_multiseed.py
-│
-├── evaluation/
-│   └── evaluate_all_drl.py
-│
-├── analysis/
-│   ├── complete_data_analysis.py
-│   └── analyse_ablation.py
-│
-├── ablation/
-│   ├── run_ablation.sh
-│   └── dueling_ddqn_multiseed_ablation.py
-│
-└── results/
-    └── phase3_v8_robust_fixed/
-        ├── raw/
-        ├── analysis/
-        │   ├── tables/
-        │   ├── figures/
-        │   └── statistics/
-        └── checkpoints/
-
 ## ⚠️ Configuration Note — Paths Must Be Set Before Running
 
 The code was written for a specific experimental setup. **Before running anything, you must update the path variables** in `env_config.py` and `complete_data_analysis.py` to match your own system.
