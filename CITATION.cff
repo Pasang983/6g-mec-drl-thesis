@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the thesis."
+authors:
+  - family-names: Lama
+    given-names: Pasang
+    affiliation: "Instituto Superior Técnico, University of Lisbon"
+title: "6G MEC Task Offloading with Deep Reinforcement Learning"
+version: 1.0.0
+date-released: 2026-10-20
+url: "https://github.com/Pasang983/6g-mec-drl-thesis"
+license: MIT

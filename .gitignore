@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+results/
+*.pt
+*.pth
+*.npy
+*.npz
+*.h5
+logs/
+_archive_broken/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+Thumbs.db
