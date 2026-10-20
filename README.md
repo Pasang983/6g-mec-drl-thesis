@@ -155,9 +155,7 @@ python dueling_ddqn_multiseed.py
 python ppo_agent_multiseed.py
 ```
 
-Training is performed across five seeds per algorithm. The runtime depends on hardware, but the full campaign is intended to be run as a batch rather than interactively. Adjust `MULTI_SEEDS` in `env_config.py` for a faster smoke test.
-
-Training takes approximately **8 hours per seed per algorithm** on a single GPU. Adjust `MULTI_SEEDS` in `env_config.py` for a faster smoke test.
+Training is performed across **five seeds per algorithm**. The runtime depends on hardware, but the full campaign is intended to be run as a batch rather than interactively. Adjust `MULTI_SEEDS` in `env_config.py` for a faster smoke test.
 
 ### Run baselines (evaluation only)
 
@@ -207,7 +205,7 @@ chmod +x run_ablation.sh
 ./run_ablation.sh
 ```
 
-Total runtime: **~120 hours** (3 configurations × 5 seeds × 8 hours per training run).
+The ablation is a batch campaign and should be run as a background job rather than interactively.
 
 ### Analysing the ablation
 
