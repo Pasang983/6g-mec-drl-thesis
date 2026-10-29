@@ -2,7 +2,7 @@
 
 Reference code for the Master's thesis:
 
-> **Task Offloading Optimization in 6G Mobile Edge Computing Based on Artificial Intelligence**
+> **Task Offloading Optimization in 6G Multi_Access Edge Computing Based on Artificial Intelligence**
 >
 > Pasang Lama — Instituto Superior Técnico, University of Lisbon, October 2026
 
@@ -247,7 +247,7 @@ If you use this code, please cite the thesis:
 ```bibtex
 @mastersthesis{Lama2026MEC,
   author = {Pasang Lama},
-  title  = {Task Offloading Optimization in 6G Mobile Edge Computing Based on Artificial Intelligence},
+  title  = {Task Offloading Optimization in 6G Multi-Access Edge Computing Based on Artificial Intelligence},
   school = {Instituto Superior Técnico, University of Lisbon},
   year   = {2026},
   month  = {October},
