@@ -2,7 +2,7 @@
 
 Reference code for the Master's thesis:
 
-> **Task Offloading Optimization in 6G Multi_Access Edge Computing Based on Artificial Intelligence**
+> **Task Offloading Optimization in 6G Multi-Access Edge Computing Based on Artificial Intelligence**
 >
 > Pasang Lama — Instituto Superior Técnico, University of Lisbon, October 2026
 
